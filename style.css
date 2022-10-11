@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(193, 100%, 96%);
+    columns: hsl(192, 100%, 9%);
+}
+
+.container{
+    width: 375px;
+}
+
+header{
+    background-image: url(./images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.page-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-heading img{
+    width: 5rem;
+    height: 1.2rem;
+}
+
+.page-heading-btn{
+    background-color: white;
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 30px;
+    border: 2px solid white;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.page-heading-btn:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+
+h2{
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0rem 2rem;
+    margin-bottom: 1.7rem;
+}
+
+.header-section p{
+    font-size: 15px;
+    padding: 0 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+}
+
+.header-section-btn{
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    background-color: hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-bottom: 3rem;
+}
+
+.header-section-btn:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.header-section img{
+    width: 18rem;
+    height: 12rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-content{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15rem;
+}
+
+.main-content .first-sec{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 100%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%, 70%);
+    box-shadow: 1px 1px 4px 1px hsl(0, 0%, 90%);
+}
+
+.main-content div img{
+    width: 15rem;
+    display: block;
+    margin: 3rem auto;
+}
+
+h3{
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+
+.first-sec p{
+    font-size: 15px;
+    opacity: 50%;
+    padding: 0rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.floating-section{
+    background-color: hsl(0, 0%, 100%);
+    width: 95%;
+    border-radius: 10px;
+    /* background-color: hsla(0, 0%, 100%, 70%); */
+    box-shadow: 1px 1px 4px 1px hsl(0, 0%, 90%);
+    position: absolute;
+    bottom: -70px;
+    padding: 2rem 0;
+}
+
+.floating-section h3{
+    padding: 0;
+    margin-bottom: 1.2rem;
+}
+
+.floating-section .footer-btn{
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    background-color: hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.footer-btn:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 01rem;
+}
+
+
+.footer-logo{
+    filter: opacity(0.6) drop-shadow(0 0 0 white);
+    margin-top: 7rem;
+    width: 9rem;
+    margin-bottom: 1.5rem;
+}
+
+.logo-div{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.logo-div img{
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+    margin-right: 25px;
+}
+
+.logo-div p{
+    font-size: 16px;
+    font-weight: lighter;
+    opacity: 70%;
+}
+
+.center-footer span{
+    display: block;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+
+.center-footer span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-logos{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.footer-logos img{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.2rem;
+    /* border-radius: 50%;
+    border: 1px solid white; */
+}
+
+.footer-logos img:hover{
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+.footer-logos img:nth-of-type(1){
+    position: relative;
+    right: 10px;
+}
+
+.footer-logos img:nth-of-type(3){
+    position: relative;
+    left: 10px;
+}
+
+.round-up{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 4rem;
+    opacity: 0.7;
+}
+
+@media screen and (min-width:765px) {
+    .container{
+        width: 98%;
+    }
+
+    .page-heading img{
+        margin-left: 5rem;
+    }
+
+    .page-heading-btn{
+        margin-right: 4rem;
+        height: 2rem;
+        width: 10rem;
+    }
+
+    .header-section{
+        padding: 4rem;
+        display: flex;
+        margin-top: 3rem;
+        align-items: center;
+    }
+
+    .header-section div{
+        width: 50rem;
+        text-align: left;
+    }
+
+    .header-section img{
+        width: 500px;
+    }
+
+    .first-sec{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding: 3rem ;
+    }
+
+    .first-sec p {
+        position: relative;
+        left: -30px;
+    }
+
+    .sec{
+        flex-direction: row;
+    }
+
+    .sec p, .sec h3{
+        margin-left: 30px;
+    }
+
+    .floating-section{
+        width: 30rem;
+    }
+
+    footer{
+        display: flex;
+        padding: 2rem;
+    }
+
+    .left-footer{
+        width: 20rem;
+    }
+
+    .left-footer p{
+        padding-right: 3rem;
+    }
+
+    .center-footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px 50px;
+        margin-top: 10rem;
+    }
+
+    .right-footer{
+        margin-top: 8rem;
+        display: grid;
+        grid-template-rows: 220px 100px;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+    .left-footer{
+        width: 35rem;
+    }
+
+    .center-footer{
+        margin-left: 6rem;
+    }
+
+    .right-footer{
+        margin-left: 10rem;
+        grid-template-rows: 300px 100px;
+    }
+}
